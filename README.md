@@ -3,10 +3,17 @@
 ## Build Setup
 
 ```bash
+# backend at localhost:3000
+# - json-server
+# - json data: db.json
+npm install -g json-server
+# To spin up this little API server we just run:
+json-server --watch db.json
+
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:3001
 $ npm run dev
 
 # build for production and launch server
