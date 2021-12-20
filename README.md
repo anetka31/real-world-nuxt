@@ -10,6 +10,9 @@ npm install -g json-server
 # To spin up this little API server we just run:
 json-server --watch db.json
 
+# fake online APIs
+https://my-json-server.typicode.com/anetka31/real-world-nuxt
+
 # install dependencies
 $ npm install
 
